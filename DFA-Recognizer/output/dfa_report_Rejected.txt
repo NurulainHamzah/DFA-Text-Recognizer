@@ -1,0 +1,103 @@
+--- DFA RECOGNIZER REPORT ---
+
+Input Text:
+The sun rose over the horizon, casting a warm glow on the serene lake. Children raced through the meadow, their laughter echoing in the crisp morning air. Tall trees swayed gently in the breeze, their leaves shimmering with dewdrops. A sense of tranquility filled the air, inviting everyone to pause for a moment of peace. Families gathered near the water’s edge, sharing stories of past adventures. Each tale brought smiles to their faces, reminding them of simpler times. The sky, painted with hues of orange, reflected on the calm surface, creating a scene of pure harmony that felt timeless.
+
+A lone traveler walked along the winding path, marveling at the vibrant flowers lining the way. The air carried the scent of fresh earth, a reminder of nature’s quiet beauty. Birds chirped from the branches above, their songs weaving a melody that lifted the spirit. The traveler paused to watch a butterfly dance among the petals, its wings catching the sunlight in a delicate display. Memories of forgotten journeys surfaced, each one a lesson in resilience. The path stretched far into the distance, promising new experiences with every step. Nature’s embrace offered comfort, a silent promise of hope for the days ahead.
+
+In a nearby village, people prepared for the day with a sense of purpose. Farmers tended to their fields, while artisans crafted items with care. Children played in the open square, their energy lighting up the cobblestone streets. A gentle river flowed through the heart of the village, its waters sparkling under the sunlight. Everyone moved with a shared rhythm, their efforts building a community rooted in trust. The day unfolded with a quiet joy, each moment a testament to the strength found in unity. Life in the village thrived, a celebration of simple pleasures.
+
+
+Keyword: 'and'
+Status: REJECTED
+Occurrences: 0 at positions: []
+
+Keyword: 'most'
+Status: REJECTED
+Occurrences: 0 at positions: []
+
+Keyword: 'good'
+Status: REJECTED
+Occurrences: 0 at positions: []
+
+Keyword: 'bad'
+Status: REJECTED
+Occurrences: 0 at positions: []
+
+Keyword: 'blue'
+Status: REJECTED
+Occurrences: 0 at positions: []
+
+Keyword: 'pretty'
+Status: REJECTED
+Occurrences: 0 at positions: []
+
+Keyword: 'dirty'
+Status: REJECTED
+Occurrences: 0 at positions: []
+
+✅ Total Matches: 0
+
+=== DFA Structure for 'and' ===
+States: q0, q1, q2, q3
+Transitions:
+  q0 --a--> q1
+  q1 --n--> q2
+  q2 --d--> q3
+  q3 is the accepting state.
+
+=== DFA Structure for 'most' ===
+States: q0, q4, q5, q6, q7
+Transitions:
+  q0 --m--> q4
+  q4 --o--> q5
+  q5 --s--> q6
+  q6 --t--> q7
+  q7 is the accepting state.
+
+=== DFA Structure for 'good' ===
+States: q0, q8, q9, q10, q11
+Transitions:
+  q0 --g--> q8
+  q8 --o--> q9
+  q9 --o--> q10
+  q10 --d--> q11
+  q11 is the accepting state.
+
+=== DFA Structure for 'bad' ===
+States: q0, q12, q13, q14
+Transitions:
+  q0 --b--> q12
+  q12 --a--> q13
+  q13 --d--> q14
+  q14 is the accepting state.
+
+=== DFA Structure for 'blue' ===
+States: q0, q12, q15, q16, q17
+Transitions:
+  q0 --b--> q12
+  q12 --l--> q15
+  q15 --u--> q16
+  q16 --e--> q17
+  q17 is the accepting state.
+
+=== DFA Structure for 'pretty' ===
+States: q0, q18, q19, q20, q21, q22, q23
+Transitions:
+  q0 --p--> q18
+  q18 --r--> q19
+  q19 --e--> q20
+  q20 --t--> q21
+  q21 --t--> q22
+  q22 --y--> q23
+  q23 is the accepting state.
+
+=== DFA Structure for 'dirty' ===
+States: q0, q24, q25, q26, q27, q28
+Transitions:
+  q0 --d--> q24
+  q24 --i--> q25
+  q25 --r--> q26
+  q26 --t--> q27
+  q27 --y--> q28
+  q28 is the accepting state.
